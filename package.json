@@ -1,0 +1,37 @@
+{
+  "name": "rpi-temp-module",
+  "version": "1.0.0",
+  "description": "Node module for fetching data from the DS18B20 temperature sensor on Raspberry Pi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/igorkulman/rpi-temp-module.git"
+  },
+  "keywords": [
+    "raspberry",
+    "pi",
+    "temperature"
+  ],
+  "author": "Igor Kulman <igor@kulman.sk> (https://github.com/igorkulman)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igorkulman/rpi-temp-module/issues"
+  },
+  "homepage": "https://github.com/igorkulman/rpi-temp-module",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+      "test": "make test"
+  },
+  "licenses": [
+  {
+    "type": "MIT",
+    "url": "https://github.com/brentertz/scapegoat/blob/master/LICENSE-MIT"
+  }
+  ]
+}
