@@ -1,4 +1,4 @@
-rpi-temp
+rpi-temp-module
 =========
 
 Node module for fetching data from the DS18B20 temperature sensor on Raspberry Pi. 
@@ -26,12 +26,14 @@ You will need to provide the device id as a parameter when using the module.
 
 ## Usage
 
-  var rpiTemp = require('rpi-temp-module')
-      getTemperature = getTemperature;
+```javascript
+var rpiTemp = require('rpi-temp-module')    
+    getTemperature = getTemperature;    
 
-  getTemperature("28-000004e23e98", funciton(value) {
-  	console.log("Temperature: "+value+"C");
-  });
+getTemperature("28-000004e23e98", funciton(value) {    
+    console.log("Temperature: "+value+"C");    
+});    
+```
 
 ## Tests
 
