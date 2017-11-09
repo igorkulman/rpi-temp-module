@@ -22,7 +22,9 @@ You will need to provide the device id as a parameter when using the module.
 
 ## Installation
 
-  npm install rpi-temp-module --save
+```bash
+npm install rpi-temp-module --save
+```
 
 ## Usage
 
@@ -36,4 +38,6 @@ rpiTemp.getTemperature("28-000004e23e98", funciton(value) {
 
 ## Tests
 
-  npm test
+```bash
+npm test
+```
